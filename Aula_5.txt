@@ -1,0 +1,32 @@
+   44  clear
+   45  git log --pretty=oneline -2
+   46  git log -2
+   47  git log -p -2
+   48  clear
+   49  git branch
+   50  git checkout -b feature
+   51  git branch
+   52  touch Nova_feature
+   53  git status
+   54  git add Nova_feature
+   55  git commit -m 'Adicionando Nova_feature'
+   56  git log
+   57  git checkout test
+   58  git log
+   59  touch ContInTest
+   60  add .
+   61  git add .
+   62  git commit -m 'Add ContInTest'
+   63  git checkout feature
+   64  git log
+   65  clear
+   66  git log --pretty=online --graph
+   67  git log --pretty=oneline --graph
+   68  git merge test
+   69  git log
+   70  git log --pretty=oneline --graph
+   71  git reset --hard HEAD~
+   72  git log --pretty=oneline --graph
+   73  git rebase test
+   74  git log --pretty=oneline --graph
+   75  history > Aula_5.txt
